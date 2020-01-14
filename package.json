@@ -1,0 +1,23 @@
+{
+  "name": "Battle-Ship",
+  "version": "1.0.0",
+  "description": "",
+  "main": "battleShip.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opower/Battle-Ship.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/opower/Battle-Ship/issues"
+  },
+  "homepage": "https://github.com/opower/Battle-Ship#readme",
+  "devDependencies": {
+    "mocha": "^7.0.0"
+  }
+}
