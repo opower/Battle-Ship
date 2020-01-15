@@ -13,7 +13,22 @@
 <body>
   <h1>BATTLE SHIP</h1>
   <h2>Deploy Your Naval Fleet</h2>
-  
+  <h3><span>--------------</span> Computer Board <span>--------------</span></h3>
+  <div class='computerBoard'>
+    <div class='display'></div>
+    <div class='display'>A</div>
+    <div class='display'>B</div>
+    <div class='display'>C</div>
+    <div class='display'>D</div>
+    <div class='display'>E</div>
+    <div class='display'>F</div>
+    <div class='display'>G</div>
+    <div class='display'>H</div>
+    <div class='display'>I</div>
+    <div class='display'>J</div>
+    <script type="text/javascript" src="battleShip.js"></script>
+  </div>
+  <h3><span>----------------</span> Your Board <span>-----------------</span></h3>
   <div class='userBoard'>
     <div class='display'></div>
     <div class='display'>A</div>
@@ -29,16 +44,17 @@
     <script type="text/javascript" src="battleShip.js"></script>
   </div>
 
-  <div class='ships'>
+  <!-- <div class='ships'>
     <p>Ships Cannot Be Placed Diagonally</p>
     <div class='carrier'> Carrier: X5 </div>
     <div class='carrier'> Carrier: X5 </div>
-  </div>
+  </div> -->
 
   <div class='buttons'>
     <input type="button" value="Start Game" onclick="startGame()">
     <input type="button" value="Reset Board">
   </div>  
+  
     
 
 </body>
